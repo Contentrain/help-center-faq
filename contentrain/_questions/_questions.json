@@ -6,5 +6,13 @@
     "slug": "question-1",
     "category": "general",
     "createdAt": 1655990921021
+  },
+  {
+    "ID": "f84088bd-18b3-47fa-b9b9-8e77f7bb4a39",
+    "content": "- Easy to integrate\n- Real-time collaboration\n- Built-in extensions\n- Content marketplace\n- See for more features here.",
+    "title": "What is the difference between Contentrain and other headless CMS?",
+    "slug": "question-2",
+    "category": "General",
+    "createdAt": 1655990997515
   }
 ]
