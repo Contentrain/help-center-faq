@@ -115,7 +115,7 @@ export default function Header() {
           </svg>
           </a>
         </div>
-        <NavBar></NavBar>
+        <NavBar />
       </div>
     </header>
   );

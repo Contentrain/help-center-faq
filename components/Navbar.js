@@ -1,4 +1,3 @@
-import * as ReactIcons from "react-icons/fa";
 import Icon from "./Icon";
 
 export default function NavBar() {
