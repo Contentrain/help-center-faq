@@ -13,7 +13,7 @@ export default function FaqCard({
     <>
       <div
         className={
-          "w-full rounded-2xl" +
+          "w-full rounded-2xl transition" +
           (activeIndex === index
             ? " bg-zinc-50"
             : " rounded-b-2xl border border-zinc-100")
@@ -23,7 +23,7 @@ export default function FaqCard({
         <div
           onClick={() => handleSetIndex(index)}
           className={
-            "flex w-full rounded-t-2xl justify-between items-center px-8 pt-8 cursor-pointer " +
+            "flex w-full transition rounded-t-2xl justify-between items-center px-8 pt-8 cursor-pointer " +
             (activeIndex === index
               ? " text-indigo-500 pb-4"
               : "rounded-b-2xl pb-8")

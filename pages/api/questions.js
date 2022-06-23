@@ -40,7 +40,8 @@ export function getAllQuestions(fields = []) {
   const questions = slugs
     .map((slug) => getQuestionBySlug(slug, fields))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.createdAt > post2.createdAt ? -1 : 1));
+    .sort((post1, post2) => (post1.category > post2.category ? -1 : 1));
+    console.log(questions, 'sorted')
   return questions;
 }
 

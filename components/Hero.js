@@ -9,10 +9,11 @@ export default function Hero(params) {
           Hi! How we can help you?
         </h1>
         <p className="text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          auctor dapibus neque. * Nunc dignissim risus id metus. * Cras ornare
-          tristique elit. * Vivamus vestibulum ntulla nec ante. * Praesent
-          placerat risus quis eros. * Fusce pellentesque suscipit nibh.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, rem
+          expedita vel sit quisquam ad, natus, velit ipsa a ea impedit eligendi.
+          Cupiditate, facilis. Officiis soluta optio odit enim facere? Labore, rem
+          expedita vel sit quisquam ad, natus, velit ipsa a ea impedit eligendi.
+          Cupiditate, facilis. Officiis soluta optio odit enim facere?
         </p>
       </div>
     </div>
