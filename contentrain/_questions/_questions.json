@@ -15,5 +15,13 @@
     "slug": "question-2",
     "category": "General",
     "createdAt": 1655990997515
+  },
+  {
+    "ID": "96dc27c0-9b4a-468c-8bc6-5632fdfd7f8e",
+    "content": "The Contentrain is a web-based platform and runs on all modern desktop browsers. \n\n-    Google Chrome\n-    Mozilla Firefox\n-    Opera\n-    Apple Safari\n-    Microsoft Edge\n\n\nNote that Contentrain does not support mobile browsers.",
+    "title": "Which browsers does Contentrain support?",
+    "slug": "question-3",
+    "category": "Payment",
+    "createdAt": 1655991088254
   }
 ]
