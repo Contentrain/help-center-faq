@@ -1,6 +1,6 @@
 import Icon from "./Icon";
 
-export default function NavBar() {
+export default function Navbar() {
   const links = [
     { icon: "FaGithub", to: "https://github.com/Contentrain/" },
     { icon: "FaTwitter", to: "https://twitter.com/contentrain_io" },

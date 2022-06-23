@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
@@ -115,7 +115,7 @@ export default function Header() {
           </svg>
           </a>
         </div>
-        <NavBar />
+        <Navbar />
       </div>
     </header>
   );
