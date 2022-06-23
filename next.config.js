@@ -7,9 +7,6 @@ const nextConfig = {
 
     return config;
   },
-  images: {
-    domains: ['https://res.cloudinary.com'],
-  },
 };
 
 module.exports = nextConfig;
