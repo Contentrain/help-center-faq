@@ -15,8 +15,8 @@ export default function FaqCard({
         className={
           "w-full rounded-2xl transition" +
           (activeIndex === index
-            ? " bg-zinc-50"
-            : " rounded-b-2xl border border-zinc-100")
+            ? " bg-slate-50"
+            : " rounded-b-2xl border border-slate-100")
         }
         id={"faq-card" + index}
       >
@@ -30,7 +30,7 @@ export default function FaqCard({
           }
         >
           <div className="flex">
-            <div className="font-semibold">{title}</div>
+            <div className="text-lg font-semibold">{title}</div>
           </div>
           <div className="flex items-center justify-center">
             <Icon
@@ -43,7 +43,7 @@ export default function FaqCard({
         {activeIndex === index && (
           <div className="w-full rounded rounded-b-md px-8 pb-8 text-md">
             <article
-              className="prose prose-zinc"
+              className="prose prose-slate"
               dangerouslySetInnerHTML={{
                 __html: content,
               }}

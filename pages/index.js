@@ -7,13 +7,14 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 export default function Home({ questions }) {
   const categories = [];
-  questions.map((question) => {
-    if (!categories.includes(question.category)) {
-      categories.push(question.category);
-    }
-  });
+  questions
+    .map((question) => {
+      if (!categories.includes(question.category)) {
+        categories.push(question.category);
+      }
+    })
+    .sort((a, b) => a > b);
   const [activeIndex, setActiveIndex] = useState(categories[0] + 0);
-  console.log(categories);
   return (
     <div>
       <Head>
@@ -26,34 +27,38 @@ export default function Home({ questions }) {
       </Head>
       <main>
         <Header />
-        <Hero className="mt-32 mb-12 max-w-3xl mx-auto" />
-        <div>
-          {categories.map((category) => (
-            <div
-              key={category}
-              className="flex max-w-3xl mx-auto flex-col justify-center items-center mt-12"
-            >
-             <div className="w-full text-left">
-             <h1 className="font-semibold text-xl mb-4">{category}</h1>
-             </div>
-              {questions
-                .filter((filteredQuestion) => filteredQuestion.category === category)
-                .map((question, index) => (
-                  <div className="w-full mb-8" key={index}>
-                    <FaqCard
-                      title={question.title}
-                      index={category + index}
-                      activeIndex={activeIndex}
-                      setActiveIndex={setActiveIndex}
-                      content={question.content}
-                      slug={question.slug}
-                    />
-                  </div>
-                ))}
-            </div>
-          ))}
+        <div className="p-4 md:p-0">
+          <Hero className="mt-32 mb-12 max-w-3xl mx-auto" />
+          <div>
+            {categories.map((category) => (
+              <div
+                key={category}
+                className="flex max-w-3xl mx-auto flex-col justify-center items-center mt-12"
+              >
+                <div className="w-full text-left">
+                  <h1 className="font-semibold text-xl mb-4">{category}</h1>
+                </div>
+                {questions
+                  .filter(
+                    (filteredQuestion) => filteredQuestion.category === category
+                  )
+                  .map((question, index) => (
+                    <div className="w-full mb-8" key={index}>
+                      <FaqCard
+                        title={question.title}
+                        index={category + index}
+                        activeIndex={activeIndex}
+                        setActiveIndex={setActiveIndex}
+                        content={question.content}
+                        slug={question.slug}
+                      />
+                    </div>
+                  ))}
+              </div>
+            ))}
+          </div>
+          <Banner />
         </div>
-        <Banner />
       </main>
     </div>
   );
