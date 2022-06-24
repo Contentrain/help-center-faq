@@ -11,7 +11,7 @@ export default function Banner() {
             src={peopleImage}
             alt=" Faq Template People"
           />
-          <h5 className="font-semibold mb-2 mt-3">
+          <h5 className="font-semibold text-lg mb-2 mt-3">
             Can’t find what you are looking for?
           </h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
