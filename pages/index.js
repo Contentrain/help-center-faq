@@ -28,7 +28,7 @@ export default function Home({ questions }) {
       <main>
         <Header />
         <div className="p-4 md:p-0">
-          <Hero className="mt-32 mb-12 max-w-3xl mx-auto" />
+          <Hero className="mt-32 mb-16 max-w-3xl mx-auto" />
           <div>
             {categories.map((category) => (
               <div
