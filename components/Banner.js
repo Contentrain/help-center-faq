@@ -1,4 +1,5 @@
 import Image from "next/image";
+import peopleImage from "../public/people.png";
 export default function Banner() {
   return (
     <div className="mb-32 mt-12 max-w-3xl mx-auto bg-slate-50 p-8 md:p-16 rounded-xl">
@@ -7,7 +8,7 @@ export default function Banner() {
           <Image
             width={140}
             height={72}
-            src="/people.png"
+            src={peopleImage}
             alt=" Faq Template People"
           />
           <h5 className="font-semibold mb-2 mt-3">
