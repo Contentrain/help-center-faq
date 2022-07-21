@@ -1,6 +1,48 @@
+
+[![q-stack](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/161e2520-980c-4c92-c953-a7080a77a800/public)](https://change-log-red.vercel.app/)
+
+# Q-Stack [![Netlify Status](https://api.netlify.com/api/v1/badges/86ca144b-95be-4813-ae57-5d1ef8f23856/deploy-status)](https://app.netlify.com/sites/delicate-empanada-f78c32/deploys)
+
+
+A free FAQ template created with [**Next JS**](https://nextjs.org) that you can use for your projects.
+
+We are very pleased to share our free template. We hope Q-Stack will help anyone who needs to keep a Faq page for their projects.
+
+You can customize this template as you wish by copying it to your own repository and pulling it to your local.
+
+[Live Preview](https://delicate-empanada-f78c32.netlify.app/)
+
+## Headless CMS
+[![Use with Contentrain](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/721c176e-f4b1-4495-1d6c-87a4b9ffa100/public)](https://app.contentrain.io)
+
+
+To manage the content of this template, we recommend you use [**Contentrain**](Contentrain).
+
+We have created the **_questions** collection template that you need. You can find and use this collection in “Community Collections”.
+
+After free registration with [Contentrain](**Contentrain**), you need to start a manual project installation and continue the installation by selecting the Q-Stack repo on Github.
+
+During the installation, it is enough to delete the sample collections in the Collections step, select the **_questions** collection from the Community Collections section and complete the installation.
+
+This way you can easily manage all your FAQ Questions with Contentrain.
+
+If you have any questions about the installation, you can send us your questions via [Discord](**Discord**).
+
+We will soon publish a video about how to use this template with Contentrain.
+
+
+## Frontmatter
+#### Default
+|variable|description|options|
+|-|-|-|
+|title|Allows you to set the title for your questions.|-|
+|category|Allows you to set categories for your questions.| -|
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+## Setup
 
 First, run the development server:
 
@@ -17,15 +59,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
